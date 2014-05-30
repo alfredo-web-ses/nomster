@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'simple_form'
+
+gem 'country_select'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
@@ -10,6 +14,11 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 
 gem 'bootstrap-sass', '~> 3.1.1'
+
+## Gemfile for Rails 3, Rails 4, Sinatra, and Merb
+gem 'will_paginate', '~> 3.0'
+
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
